@@ -1,0 +1,50 @@
+{
+  "token": "BOTUNUZUN_TOKENI_BURAYA",
+  "clientId": "BOT_CLIENT_ID_BURAYA",
+  "mongoUri": "mongodb://localhost:27017/wnersdev_durum_rol",
+  "ownerIds": ["OWNER_DISCORD_ID_BURAYA"],
+  "bot": {
+    "name": "WNERSDEV Durum Rol",
+    "language": "tr",
+    "debug": false
+  },
+  "statusRoles": {
+    "enabled": true,
+    "presenceUpdateEnabled": true,
+    "autoRoleAdd": true,
+    "autoRoleRemove": true,
+    "cooldownSeconds": 5,
+    "roleHierarchyProtection": true,
+    "duplicateProtection": true,
+    "notifications": {
+      "enabled": false,
+      "channelId": ""
+    },
+    "platforms": {
+      "customStatus": true,
+      "game": true,
+      "spotify": true,
+      "streaming": true,
+      "activity": true
+    }
+  },
+  "queue": {
+    "maxConcurrent": 3,
+    "intervalMs": 1200,
+    "batchSize": 25
+  },
+  "reconciliation": {
+    "enabled": true,
+    "intervalMinutes": 30
+  },
+  "anomaly": {
+    "enabled": true,
+    "windowSeconds": 60,
+    "maxActionsPerWindow": 150
+  },
+  "cache": {
+    "guildSettingsTtlMs": 60000,
+    "rulesTtlMs": 60000,
+    "roleMetadataTtlMs": 300000
+  }
+}

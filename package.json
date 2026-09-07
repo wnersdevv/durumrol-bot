@@ -1,0 +1,21 @@
+{
+  "name": "wnersdev-durum-rol",
+  "version": "1.0.0",
+  "description": "WNERSDEV Durum & Rol Altyapısı - Discord presence/aktivite tabanlı otomatik rol yönetim sistemi",
+  "main": "wnersdev.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node wnersdev.js",
+    "test:local": "node scripts/localTest.js",
+    "deploy-commands": "node scripts/deployCommands.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "mongoose": "^8.7.0"
+  },
+  "license": "UNLICENSED",
+  "author": "WNERSDEV"
+}
